@@ -5,3 +5,5 @@ the example programs that forked from smarmengol/Modbus-Master-Slave-for-Arduino
 
 i have used the BluePill (stm32f103c8t6) board and core is used Arduino_Core_STM32 link https://github.com/stm32duino/Arduino_Core_STM32
 and the board version is 1.4.0 arduino ide v 1.8.4
+
+and tested this files in BluePill (stm32f103c8t6) with vfd to read holding registers
