@@ -4,4 +4,4 @@ so default modbus uart is Uart 2 or Serial 2.
 the example programs that forked from smarmengol/Modbus-Master-Slave-for-Arduino will work
 
 i have used the BluePill (stm32f103c8t6) board and core is used Arduino_Core_STM32 link https://github.com/stm32duino/Arduino_Core_STM32
-and the board version is 1.4.0 arduino ide v 1.8
+and the board version is 1.4.0 arduino ide v 1.8.4
