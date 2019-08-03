@@ -87,7 +87,15 @@
 //#include <SoftwareSerial.h>
 #include <HardwareSerial.h>
 
-HardwareSerial modbus(USART3);
+HardwareSerial UARTSerial1(USART1);
+
+HardwareSerial UARTSerial2(USART2);
+
+HardwareSerial UARTSerial3(USART3);
+
+HardwareSerial modbus(USART2);
+
+
 /**
 
  * @struct modbus_t
@@ -602,7 +610,7 @@ void Modbus::begin(long u32speed)
 
     case 1:
 
-        port = &Serial1;
+        port = &UARTSerial1;
 
         break;
 
@@ -614,7 +622,7 @@ void Modbus::begin(long u32speed)
 
     case 2:
 
-        port = &Serial2;
+        port = &UARTSerial2;
 
         break;
 
@@ -626,7 +634,7 @@ void Modbus::begin(long u32speed)
 
     case 3:
 
-        port = &Serial3;
+        port = &UARTSerial3;
 
         break;
 
